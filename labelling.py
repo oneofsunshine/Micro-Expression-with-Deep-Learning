@@ -111,7 +111,7 @@ def collectinglabel(Table, sub, videoName, workplace, db, objective_flag):
                 #     result = 6
                 #     break
         
-    print(result)
+    print("res", result)
     if result != -1 :
 
         with open(workplace + db + '_label.txt','a') as f:

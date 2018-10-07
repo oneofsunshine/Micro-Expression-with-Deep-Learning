@@ -98,6 +98,8 @@ python main.py --train './train_samm_cross' --dB 'CASME2_Optical' --batch_size=1
 
 python main.py --dB './test_samm_cross' 'SAMM_Optical' --batch_size=1 --spatial_epochs=100 --temporal_epochs=100 --train_id='default_test' --spatial_size=224 --flag='st4se'
 
+python main.py --dB 'SAMM_Optical' --batch_size=1 --spatial_epochs=100 --temporal_epochs=100 --train_id='default_test' --spatial_size=224 --flag='st' --objective_flag=0
+
 **file structure as follow**:
 * asterisk indicates that the folder needs to be created manually
 
